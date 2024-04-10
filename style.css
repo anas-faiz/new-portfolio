@@ -1,0 +1,207 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: 0.5s;
+}
+.container nav{
+    display: flex;
+    padding: 2rem 4rem;
+    justify-content: space-between;  
+    transition: 0.5s;
+
+}
+.container #navright h1{
+    color: orangered;
+    font-size: 2rem;
+    letter-spacing: 1.8px;
+}
+
+.container #navleft {
+    display: flex;
+    gap: 40px;
+    font-size: 2rem;
+    align-items: center;
+}
+.container #navleft a{
+    text-decoration: none;
+}
+.container #navleft a:hover{
+    transform: scale(1.2);
+}
+.home{
+    
+    padding: 2rem 4rem; 
+}
+.home h1{
+    font-size: 10rem;
+    transition: 0.5s;
+}
+span{
+    color: orangered;
+    transition: 0.5s;
+}
+.home .button{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    bottom: 10%;
+}
+.home button{
+    color: black;
+    margin-top: 4rem;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.home .button .project-button{
+    background-color: orangered;
+    
+}
+.project-button:hover{
+    transform: scale(1.1);
+}
+.container2{
+    width: 100%;
+    padding:2rem 4rem;
+    background-color: black;
+    position: relative;
+}
+.container2 .home2 .heading{
+    font-size: 4.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.home2{
+    width: 100%;
+    height: 100%;
+}
+.home2 .tinder{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.tinder div .active-links{
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;    
+}
+
+.home2 .tinder img{
+    width: 37rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.home2 .tinder p{
+    line-height: 40px;
+    font-size: 1.5rem;
+    letter-spacing: .15rem;
+    font-weight: 300;
+}
+.home2 .heading :hover{
+    transform: scale(1.1);
+}
+.home2 .docs{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+.home2 .docs img{
+    width: 25.4rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.home2 .docs p{
+    line-height: 30px;
+    font-size: 1.5rem;
+    letter-spacing: .15rem;
+    font-weight: 300;
+}
+.home2 .music-player{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+.home2 .music-player img{
+    width: 25.4rem;
+    height: 20rem;
+    object-fit: cover;
+
+}
+.home2 .music-player p{
+    line-height: 31px;
+    font-size: 1.5rem;
+    letter-spacing: .15rem;
+    font-weight: 300;
+}
+.docs div .active-links{
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;    
+}
+
+.music-player div .active-links{
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;    
+}
+.container3{
+    width: 100%;
+}
+.container3 .home3{
+    width: 100%;
+    background-color: black;
+    position: relative;
+    padding-bottom: 5rem;
+}
+.container3 .home3 .techskills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.techskills div button{
+    padding: 20px 30px;
+    color:orangered;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.techskills div button:hover{
+    transform: scale(1.2);
+}
